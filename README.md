@@ -6,7 +6,7 @@ This package will generate a js or ts file (whatever you specify as output). It 
 ## Example
 
 ```
-svg-tolit --input './icons/*' --output './dist/icons.js'
+svg-to-lit --input './icons/*' --output './dist/icons.js'
 ```
 May generate a file like this: 
 ```
@@ -24,7 +24,7 @@ export const happyBunny = svg`<svg xmlns="http://www.w3.org/2000/svg" width="24"
 ## Params
 
 ```
--i | --input:  Specify input. [Glob](https://www.npmjs.com/package/glob) patterns are possible. This parameter is required.
+-i | --input:  Specify input. Glob patterns are possible. This parameter is required.
 -o | --output: Specify output. This parameter is required.
 -h | --help:   Call this fancy help once again.
 -c | --compress: Compress / Optimize svg in the process.
