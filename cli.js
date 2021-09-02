@@ -41,7 +41,11 @@ glob( args[ inputIndex ], ( error, files ) => {
 		: { data: data.svg, path: data.path };
 	} );
 
-	writeFileSync( args[ outputIndex ], `import { svg } from 'lit';
+	writeFileSync( args[ outputIndex ], `
+// Do not modify this file by hand!
+// Re-generate this file by running svg-to-lit
+
+import { svg } from 'lit';
 ${ data.map( data => `export const ${ camelize( constantify( path.parse( data.path ).name ).toLowerCase(), false ) } = svg\`${ data.data }\`\n` ).join( '' ) }`
 )
 });

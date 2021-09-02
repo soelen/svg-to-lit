@@ -6,7 +6,7 @@ This package will generate a js or ts file (whatever you specify as output). It 
 ## Example
 
 ```
-svg-to-lit --input './icons/*' --output './dist/icons.js'
+svg-to-lit --input ./icons/* --output ./dist/icons.js
 ```
 May generate a file like this: 
 ```
