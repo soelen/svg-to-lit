@@ -1,0 +1,29 @@
+{
+  "name": "svg-to-lit",
+  "version": "1.0.0",
+  "description": "Converting svg files for lit.dev based projects.",
+  "main": "cli.js",
+  "type": "module",
+  "dependencies": {
+    "glob": "^7.1.7",
+    "inflected": "^2.1.0",
+    "svgo": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "svg-to-lit": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soelen/svg-to-lit.git"
+  },
+  "keywords": [],
+  "author": "Uwe Sölen Flaig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soelen/svg-to-lit/issues"
+  },
+  "homepage": "https://github.com/soelen/svg-to-lit#readme"
+}
