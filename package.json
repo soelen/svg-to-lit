@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/soelen/svg-to-lit.git"
   },
-  "keywords": [],
+  "keywords": [ "lit", "lit-element", "svg" ],
   "author": "Uwe Sölen Flaig",
   "license": "MIT",
   "bugs": {
